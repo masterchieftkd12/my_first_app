@@ -21,7 +21,10 @@ class MyApp extends StatelessWidget {
           onPressed: () {
             // Add your onPressed code here!
           },
-          child: const Icon(Icons.navigation),
+          foregroundColor: Colors.white,
+          backgroundColor: Colors.deepPurple,
+          hoverColor: Colors.amber,
+          child: const Icon(Icons.thumb_up),
         ),
       ),
     );
