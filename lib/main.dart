@@ -17,6 +17,12 @@ class MyApp extends StatelessWidget {
         body: const Center(
           child: Text('Welcome to my first mobile app! Please click the button below'),
         ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            // Add your onPressed code here!
+          },
+          child: const Icon(Icons.navigation),
+        ),
       ),
     );
   }
