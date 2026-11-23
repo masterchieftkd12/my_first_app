@@ -14,6 +14,9 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('My First App'),
         ),
+        body: const Center(
+          child: Text('Welcome to my first mobile app! Please click the button below'),
+        ),
       ),
     );
   }
